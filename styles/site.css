@@ -180,43 +180,6 @@ img:hover {
     filter: drop-shadow(0 0 15px rgba(128, 219, 253, 0.5));
 }
 
-#discordStatus,
-#spotifyStatus {
-    color: var(--text);
-    font-family: UndRform, var(--mono), sans-serif;
-    font-size: 14px;
-    font-style: italic;
-    line-height: 1.4em;
-    margin: 8px 0;
-    padding: 8px 12px;
-    background: rgba(12, 51, 72, 0.3);
-    border-left: 3px solid var(--border);
-    transition: all 0.3s ease;
-}
-
-#discordStatus:hover,
-#spotifyStatus:hover {
-    background: rgba(12, 51, 72, 0.5);
-    border-left-color: var(--accent);
-    box-shadow: 0 0 10px rgba(0, 127, 127, 0.2);
-}
-
-#discordStatus i,
-#spotifyStatus i {
-    color: var(--dim);
-}
-
-#discordStatus b,
-#spotifyStatus b {
-    color: var(--accent);
-    text-shadow: 0 0 8px rgba(64, 168, 203, 0.4);
-}
-
-#spotifyStatus::before {
-    color: var(--accent);
-    text-shadow: 0 0 8px rgba(64, 168, 203, 0.4);
-}
-
 .loading {
     animation: pulse 2s ease-in-out infinite;
 }
